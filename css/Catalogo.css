@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(241, 132, 255);
+    width: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    font-size: 19px;
+}
+nav img{
+    width: 250px;
+}
+nav a{
+    text-decoration: none;
+    text-shadow: 16px;
+    color: white;
+}
+.card1{
+    padding: 50px;
+}
+.card1 img{
+    width: 250px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.Catalogo{
+    padding: 5px;
+}
+.Catalogo h1{
+    padding: 20px;
+}
+.card2{
+    padding: 50px;
+}
+.card2 img{
+    width: 250px;
+}
+.card3{
+    padding: 50px;
+}
+.card3 img{
+    width: 300px;
+    height: 250px;
+}
+.card4{
+    padding: 50px;
+}
+.card4 img{
+    width: 300px;
+    height: 250px;
+}
+.card5{
+    padding: 50px;
+}
+.card5 img{
+    width: 250px;
+    height: 250px;
+}
+.card-destacada{
+    padding: 300px;
+}
+.card-destacada img{
+    width: 250px;
+}
+footer{
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+    color: rgb(88, 88, 88);
+    padding: 65px;
+}
