@@ -22,16 +22,26 @@ nav a{
     text-shadow: 16px;
     color: white;
 }
-.card1{
+.card{
+    width: 200px;
+    margin: 10px;
     padding: 50px;
+    box-shadow: 1px 5px 10px #8d8d8d;
 }
-.card1 img{
+.card img{
     width: 250px;
+}
+.card a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 9px;
 }
 .tarjetas{
     display: flex;
-    justify-content: space-around;
-    width: 300px;
+    justify-content:center;
 }
 .Catalogo{
     padding: 5px;
@@ -39,38 +49,33 @@ nav a{
 .Catalogo h1{
     padding: 20px;
 }
-.card2{
-    padding: 50px;
-}
-.card2 img{
-    width: 250px;
-}
-.card3{
-    padding: 50px;
-}
-.card3 img{
-    width: 300px;
-    height: 250px;
-}
-.card4{
-    padding: 50px;
-}
-.card4 img{
-    width: 300px;
-    height: 250px;
-}
-.card5{
-    padding: 50px;
-}
-.card5 img{
-    width: 250px;
-    height: 250px;
+.destacada{
+    display: flex;
+    justify-content: center;
 }
 .card-destacada{
-    padding: 300px;
+    padding: 50px;
+    margin: 40px;
+    width: 900px;
+    border-radius: 2px;
+    box-shadow: 1px 5px 10px #8d8d8d;
+    display: flex;
+    justify-content: first baseline;
 }
 .card-destacada img{
     width: 250px;
+}
+.destacada-content{
+    padding: 20px;
+}
+.destacada-content a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 9px;
+    margin: 10px;
 }
 footer{
     background-color: rgb(168, 168, 168);

@@ -20,3 +20,57 @@ nav a{
     text-shadow: 16px;
     color: white;
 }
+.historia img{
+    width: 250px;
+}
+.mision img{
+    width: 250px;
+}
+.equipo img{
+    width: 250px;
+}
+.historia{
+    padding: 50px;
+    margin: 40px;
+    width: 900px;
+    border-radius: 2px;
+    box-shadow: 1px 5px 10px #8d8d8d;
+    display: flex;
+    justify-content: first baseline;
+    align-items:center;
+}
+.history{
+    padding: 40px;
+}
+.mision{
+    padding: 50px;
+    margin: 40px;
+    width: 900px;
+    border-radius: 2px;
+    box-shadow: 1px 5px 10px #8d8d8d;
+    display: flex;
+    justify-content: first baseline;
+    align-items:center;
+}
+.equipo{
+    padding: 50px;
+    margin: 40px;
+    width: 900px;
+    border-radius: 2px;
+    box-shadow: 1px 5px 10px #8d8d8d;
+    display: flex;
+    justify-content: first baseline;
+    align-items:center;
+}
+.mission{
+    padding: 40px;
+}
+.equippo{
+    padding: 40px;
+}
+footer{
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+    color: rgb(88, 88, 88);
+    padding: 65px;
+}

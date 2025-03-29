@@ -20,3 +20,52 @@ nav a{
     text-shadow: 16px;
     color: white;
 }
+.welcome{
+    font-size: 23px;
+    text-align: center;
+}
+.welcome a{
+    color: black;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 200px;
+    margin: 10px;
+    padding: 50px;
+    box-shadow: 1px 5px 10px #8d8d8d;
+}
+.card img{
+    width: 250px;
+}
+.Nosotros1{
+    display: flex;
+    justify-content: center;
+}
+.nosotros{
+    padding: 50px;
+    margin: 40px;
+    width: 900px;
+    border-radius: 2px;
+    box-shadow: 1px 5px 10px #8d8d8d;
+    display: flex;
+    justify-content: first baseline;
+    align-items:last baseline;
+}
+.nosotros img{
+    width: 250px;
+}
+.nosotros a{
+    color: black;
+}
+.abou{
+    padding: 20px;
+}
+footer{
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+    color: rgb(88, 88, 88);
+    padding: 65px;
+}
